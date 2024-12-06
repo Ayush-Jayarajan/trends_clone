@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+#header{
+    background-color: black;
+    height: 160px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    position: sticky;
+    top: 0px;
+    z-index: 6;
+}
+
+#header h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+#header h1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 20px;
+    margin-top: -1px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.bgcolor{
+    background-color: bisque;
+}
+
+#bodyimage{
+    background-color: white;
+    width: 100%;
+    height: 480px;
+    border-radius: 4%;
+}
+
+#image1{
+    margin: 20px;
+    height: 440px;
+    width: 97%;
+    border-radius: 3%;
+}
+
+#bodyvideo{
+    background-color: white;
+    width: 100%;
+    height: 440px;
+    border-radius: 4%;
+    position: relative;
+    z-index: 2;
+}
+
+#video1{
+    height: 400px;
+    width: 97%;
+    object-fit: cover;
+    border-radius: 3%;
+    margin: 20px;
+    filter: brightness(50%);
+}
+
+.store{
+    color: black;
+    font-family: Poppins;
+    font-size: medium;
+}
+
+#storetitle{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -160px;
+    color: white;
+    font-size: x-large;
+    z-index: 4;
+}
+
+#nav-store{
+    background-color: white;
+    height: 40px;
+    width: 32%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 34%;
+    margin-top: -110px;
+    z-index: 4;
+
+}
+
+#nav2{
+    
+}
+
+#ul2{
+    padding-top: 15px;
+}
+
+#formdiv{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: -60px;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.col{
+    height: 360px;
+    width: 22%;
+    background-color: white;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    border-radius: 2%;
+}
+
+#shopphoto{
+    width: 94%;
+    height: 200px;
+    padding: 9px;
+    border-radius: 9%;
+}
+
+.store-heading{
+    text-align: center;
+}
+
+.textund{
+    text-decoration: none;
+}
+
+.storepara{
+    font-size: small;
+    color: grey;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.direction{
+    text-align: center;
+    margin-top: 10px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#collection{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: xx-large;
+
+}
+
+.coll-name{
+    color: black;
+
+}
